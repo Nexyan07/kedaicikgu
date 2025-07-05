@@ -1,0 +1,29 @@
+# Node modules (jika menggunakan npm untuk tailwind)
+node_modules/
+
+# Hasil build Tailwind (jika disimpan dalam folder tertentu)
+dist/
+build/
+
+# File keluaran Tailwind CLI (jika output CSS disimpan langsung)
+input.css
+
+# Log & cache
+*.log
+*.tmp
+.cache/
+.DS_Store
+
+# Sistem editor (VSCode, macOS, dll)
+.vscode/
+.idea/
+*.swp
+
+# Output dari Live Server atau plugin dev lainnya
+*.local
+.env
+.env.*
+
+# lock files (opsional tergantung preferensi)
+package-lock.json
+yarn.lock
